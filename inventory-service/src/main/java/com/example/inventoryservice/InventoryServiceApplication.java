@@ -18,7 +18,7 @@ public class InventoryServiceApplication {
 {
 	return  args -> {
 		Inventory inventory=new Inventory();
-		inventory.setQuantity(2);
+		inventory.setQuantity(0);
 		inventory.setSkuCode("I-Phone-13");
 		inventoryRepo.save(inventory);
 
